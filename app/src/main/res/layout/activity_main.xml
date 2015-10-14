@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/main_title"
         android:id="@+id/headline"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -20,7 +20,7 @@
     <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:text="Spotify Streamer"
+        android:text="@string/streamer_app_title"
         android:id="@+id/button_streamer_app"
         android:layout_below="@+id/headline"
         android:layout_centerHorizontal="true"
@@ -33,7 +33,7 @@
     <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:text="Scores App"
+        android:text="@string/scores_app_title"
         android:id="@+id/button_scores_app"
         android:capitalize="sentences"
         android:height="@dimen/button_height"
@@ -45,7 +45,7 @@
     <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:text="Library App"
+        android:text="@string/library_app_title"
         android:id="@+id/button_library_app"
         android:capitalize="sentences"
         android:height="@dimen/button_height"
@@ -57,7 +57,7 @@
     <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:text="Build it bigger"
+        android:text="@string/build_it_bigger_app_title"
         android:id="@+id/button_build_it_bigger_app"
         android:capitalize="sentences"
         android:height="@dimen/button_height"
@@ -69,7 +69,7 @@
     <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:text="xyz Reader"
+        android:text="@string/xyz_reader_app_title"
         android:id="@+id/button_reader_app"
         android:capitalize="sentences"
         android:height="@dimen/button_height"
@@ -81,7 +81,7 @@
     <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:text="Capstone: My Own App"
+        android:text="@string/my_own_app_title"
         android:id="@+id/button_my_own_app"
         android:capitalize="sentences"
         android:height="@dimen/button_height"
